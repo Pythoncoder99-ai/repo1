@@ -36,7 +36,7 @@ b=a.upper()
 print(b)
 
 
-#Program to add all the digits in a user entered number using while loop
+#4.Program to add all the digits in a user entered number using while loop
 num=int(input("enter the number:  "))
 sum=0
 while num!=0:
@@ -49,7 +49,7 @@ a=("\n this is the next  program that you're seeing below")
 b=a.upper()
 print(b)
 
-#Program to add all the digits in the user entered number only if it is an even number using while loop.
+#5.Program to add all the digits in the user entered number only if it is an even number using while loop.
 num=int(input("enter the number: "))
 sum=0
 while num!=0:
@@ -63,7 +63,7 @@ a=("\n this is the next  program that you're seeing below")
 b=a.upper()
 print(b)
 
-#Program to add each digit in a number only if the digit is even number using while loop
+#6.Program to add each digit in a number only if the digit is even number using while loop
 num=int(input("enter the number: "))
 if num%2==0:
     print(f"{num} is an even number, so it will processed further")
