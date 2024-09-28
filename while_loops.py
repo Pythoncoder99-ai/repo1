@@ -50,7 +50,7 @@ b=a.upper()
 print(b)
 
 #5.Program to add all the digits in the user entered number only if it is an even number using while loop.
-num=int(input("enter the number: "))
+num=int(input("enter the number to add digits at last: "))
 sum=0
 while num!=0:
     last_dig=num%10
@@ -64,7 +64,7 @@ b=a.upper()
 print(b)
 
 #6.Program to add each digit in a number only if the digit is even number using while loop
-num=int(input("enter the number: "))
+num=int(input("enter the number for checking even number: "))
 if num%2==0:
     print(f"{num} is an even number, so it will processed further")
     sum=0
@@ -75,6 +75,19 @@ if num%2==0:
     print(f"And the sum is: {sum} ")
 else:
     print(f"{num} is not an even number, so digit will not processed further")
+
+#program to check the number is palindrome using while loop without using typecasting.
+int(input("enter the number for checking palindrome:  "))
+temp=num
+rev=0
+while num!=0:
+    last_dig=num%10
+    num//=10
+    rev=rev*10+last_dig
+if rev==temp:
+    print(f"The entered {temp} is palindrome!")
+else:
+    print(f"The entered {temp} is not a palindrome!")
 a=(''' \n Thank you. You've succesfully executed today's programs!''')
 b=a.upper()
 print(b)
